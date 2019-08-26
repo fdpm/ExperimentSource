@@ -16,5 +16,16 @@ namespace Taller4.NewFolder
             Merge = new int[size];
             insertion = new int[size];
         }
+
+        public void statusDown(int[] x, int[] y)
+        {
+            int n = x.length;
+            int m = y.length;
+
+            for (int i = 0; i < x.length; i++) {
+                x[i] = n--;
+                y[i] = m--;
+            }
+        }
     }
 }
