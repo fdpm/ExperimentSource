@@ -14,7 +14,7 @@ namespace Taller4.NewFolder
             merge = new int[size];
             insertion = new int[size];
         }
-<<<<<<< HEAD
+
         private void shuffle(int[] list)
         {
             Random r = new Random();
@@ -27,14 +27,14 @@ namespace Taller4.NewFolder
             }
         }
 
-=======
+
 
         public void statusDown(int[] x, int[] y)
         {
-            int n = x.length;
-            int m = y.length;
+            int n = x.Length;
+            int m = y.Length;
 
-            for (int i = 0; i < x.length; i++) {
+            for (int i = 0; i < x.Length; i++) {
                 x[i] = n--;
                 y[i] = m--;
             }
@@ -49,6 +49,6 @@ namespace Taller4.NewFolder
                 array2[i] = i;
             }
         }
->>>>>>> 2f19069c93a57a0d9e7f9760c2254b7638fca19c
+
     }
 }
