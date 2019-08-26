@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1144091619\\.nuget\\packages\\": {},
+    "C:\\Users\\1007672072\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1144091619\\source\\repos\\Taller4\\Taller4\\Taller4.csproj",
+      "projectUniqueName": "C:\\Users\\1007672072\\Documents\\ExperimentSource\\Taller4\\Taller4.csproj",
       "projectName": "Taller4",
-      "projectPath": "C:\\Users\\1144091619\\source\\repos\\Taller4\\Taller4\\Taller4.csproj",
-      "packagesPath": "C:\\Users\\1144091619\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1144091619\\source\\repos\\Taller4\\Taller4\\obj\\",
+      "projectPath": "C:\\Users\\1007672072\\Documents\\ExperimentSource\\Taller4\\Taller4.csproj",
+      "packagesPath": "C:\\Users\\1007672072\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1007672072\\Documents\\ExperimentSource\\Taller4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1144091619\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1007672072\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
