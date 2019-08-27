@@ -26,19 +26,25 @@ namespace Experimento
         {
             listTiempos.Items.Clear();
             if (!comboAlgoritmo.Text.Equals("") && !comboTamanio.Text.Equals("") && !comboOrden.Text.Equals("") && !comboRepe.Text.Equals("")) {
-                elExperimento = new ExpPrincipal(int.Parse(comboTamanio.Text));
-                if (comboOrden.Text.Equals("Aleatorio")) {
-                    elExperimento.shuffle(elExperimento.arregloOrdenar);
-                }
-                else if (comboOrden.Text.Equals("Ascendente")) {
-                    elExperimento.orderUpward(elExperimento.arregloOrdenar);
-                }
-                else {
-                    elExperimento.statusDown(elExperimento.arregloOrdenar);
-                }
-                Stopwatch medidor = new Stopwatch();
-                for (int i = 0; i < int.Parse(comboRepe.Text); i++)
+                int repeticiones = int.Parse(comboRepe.Text);
+                for (int i = 0; i < repeticiones; i++)
                 {
+                    elExperimento = new ExpPrincipal(int.Parse(comboTamanio.Text));
+                    if (comboOrden.Text.Equals("Aleatorio"))
+                    {
+                        elExperimento.shuffle(elExperimento.arregloOrdenar);
+                    }
+                    else if (comboOrden.Text.Equals("Ascendente"))
+                    {
+                        elExperimento.orderUpward(elExperimento.arregloOrdenar);
+                    }
+                    else
+                    {
+                        elExperimento.statusDown(elExperimento.arregloOrdenar);
+                    }
+                    Stopwatch medidor = new Stopwatch();
+                    //for (int i = 0; i < int.Parse(comboRepe.Text); i++)
+                    //{
                     medidor.Restart();
                     medidor.Start();
                     if (comboAlgoritmo.Text.Equals("MergeSort"))
@@ -53,9 +59,10 @@ namespace Experimento
                     String tiempo = medidor.Elapsed.ToString("hh\\:mm\\:ss\\.ffffff");
                     listTiempos.Items.Add(tiempo);
                     Console.WriteLine(tiempo);
+                    //}
+                    Console.WriteLine(" ");
+                    
                 }
-                Console.WriteLine(" ");
-                Console.WriteLine(" ");
             }
             else {
                 MessageBox.Show(string.Format("Llene todos los campos"));

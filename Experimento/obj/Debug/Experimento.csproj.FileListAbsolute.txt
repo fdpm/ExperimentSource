@@ -8,3 +8,13 @@ C:\Users\Juan Puerta\source\repos\Experimento\Experimento\obj\Debug\Experimento.
 C:\Users\Juan Puerta\source\repos\Experimento\Experimento\obj\Debug\Experimento.csproj.CoreCompileInputs.cache
 C:\Users\Juan Puerta\source\repos\Experimento\Experimento\obj\Debug\Experimento.exe
 C:\Users\Juan Puerta\source\repos\Experimento\Experimento\obj\Debug\Experimento.pdb
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\bin\Debug\Experimento.exe.config
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\bin\Debug\Experimento.exe
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\bin\Debug\Experimento.pdb
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.csprojAssemblyReference.cache
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.Form1.resources
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.Properties.Resources.resources
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.csproj.GenerateResource.cache
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.csproj.CoreCompileInputs.cache
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.exe
+C:\Users\Juan Puerta\Documents\ExperimentSource\Experimento\obj\Debug\Experimento.pdb
