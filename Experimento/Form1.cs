@@ -56,7 +56,7 @@ namespace Experimento
                         elExperimento.insertion.insertionSort(elExperimento.arregloOrdenar);
                     }
                     medidor.Stop();
-                    String tiempo = medidor.Elapsed.ToString("hh\\:mm\\:ss\\.ffffff");
+                    String tiempo = medidor.Elapsed.ToString("s\\,ffffff");
                     listTiempos.Items.Add(tiempo);
                     Console.WriteLine(tiempo);
                     //}
